@@ -1,0 +1,15 @@
+{
+  "excluded": [],
+  "failed": [
+    {
+      "describe": "changeset/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/exmeal_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    }
+  ],
+  "invalid": [],
+  "passed": [],
+  "skiped": []
+}
