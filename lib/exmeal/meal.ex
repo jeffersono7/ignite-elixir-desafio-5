@@ -5,6 +5,8 @@ defmodule Exmeal.Meal do
 
   @required_params [:description, :date, :calories]
 
+  @primary_key {:id, :binary_id, autogenerate: true}
+
   schema "meals" do
     field(:description, :string)
     field(:date, :date)
