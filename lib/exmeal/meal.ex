@@ -6,9 +6,9 @@ defmodule Exmeal.Meal do
   @required_params [:description, :date, :calories]
 
   schema "meals" do
-    field :description, :string
-    field :date, :date
-    field :calories, :integer
+    field(:description, :string)
+    field(:date, :date)
+    field(:calories, :integer)
 
     timestamps()
   end
