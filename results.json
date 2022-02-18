@@ -4,18 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "Update Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/update_test.exs",
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
       "line": 5,
-      "module": "Elixir.Exmeal.Meals.UpdateTest",
-      "test": "test Update Meal when a valid id is given, returns the meal"
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
     },
     {
-      "describe": "Update Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/update_test.exs",
-      "line": 24,
-      "module": "Elixir.Exmeal.Meals.UpdateTest",
-      "test": "test Update Meal when an invalid id is given, returns an error"
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
     }
   ],
   "skiped": []
