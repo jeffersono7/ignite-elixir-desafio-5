@@ -9,7 +9,7 @@ defmodule Exmeal.Meals.Create do
 
   defp handle_insert({:ok, %Meal{} = meal}), do: {:ok, meal}
 
-  defp handle_insert({:error, _changeset}) do
-    {:error, %Error{result: "Invalid params", status: :bad_request}}
+  defp handle_insert({:error, changeset}) do
+    {:error, %Error{result: changeset, status: :bad_request}}
   end
 end

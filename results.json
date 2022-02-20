@@ -1,21 +1,50 @@
 {
-  "excluded": [],
+  "excluded": [
+    {
+      "describe": "get/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 108
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 5
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 43
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 95
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 130
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 58
+    }
+  ],
   "failed": [],
   "invalid": [],
   "passed": [
     {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
-      "line": 5,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when a valid id is given, returns the meal"
-    },
-    {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
-      "line": 25,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when an invalid id is given, returns an error"
+      "describe": "create/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 26,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
     }
   ],
   "skiped": []
