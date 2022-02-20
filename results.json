@@ -1,19 +1,9 @@
 {
   "excluded": [
     {
-      "describe": "get/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 108
-    },
-    {
       "describe": "create/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 5
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 73
     },
     {
       "describe": "delete/2",
@@ -21,9 +11,14 @@
       "line": 43
     },
     {
-      "describe": "update/2",
+      "describe": "create/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 95
+      "line": 26
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 108
     },
     {
       "describe": "get/2",
@@ -31,20 +26,25 @@
       "line": 130
     },
     {
-      "describe": "delete/2",
+      "describe": "update/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 58
+      "line": 95
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73
     }
   ],
   "failed": [],
   "invalid": [],
   "passed": [
     {
-      "describe": "create/2",
+      "describe": "delete/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 26,
+      "line": 58,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when there are invalid params, returns an error"
+      "test": "test delete/2 when id not exist, return an error"
     }
   ],
   "skiped": []
