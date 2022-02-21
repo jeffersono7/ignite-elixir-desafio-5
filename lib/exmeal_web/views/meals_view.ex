@@ -13,7 +13,7 @@ defmodule ExmealWeb.MealsView do
       }) do
     %{
       meal: %{
-        meal: %{
+        meal: %Meal{
           id: id,
           description: description,
           date: date,
@@ -24,7 +24,7 @@ defmodule ExmealWeb.MealsView do
     }
   end
 
-  def render("update.json", %{
+  def render("meal.json", %{
         meal: %Meal{
           id: id,
           description: description,
@@ -33,7 +33,7 @@ defmodule ExmealWeb.MealsView do
         }
       }) do
     %{
-      meal: %{
+      meal: %Meal{
         id: id,
         description: description,
         date: date,
@@ -41,22 +41,4 @@ defmodule ExmealWeb.MealsView do
       }
     }
   end
-
-  def render("get.json", %{
-    meal: %Meal{
-      id: id,
-      description: description,
-      date: date,
-      calories: calories
-    }
-  }) do
-%{
-  meal: %{
-    id: id,
-    description: description,
-    date: date,
-    calories: calories
-  }
-}
-end
 end

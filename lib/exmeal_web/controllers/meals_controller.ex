@@ -26,7 +26,7 @@ defmodule ExmealWeb.MealsController do
     with {:ok, meal} <- Update.call(params) do
       conn
       |> put_status(:ok)
-      |> render("update.json", meal: meal)
+      |> render("meal.json", meal: meal)
     end
   end
 
@@ -34,7 +34,7 @@ defmodule ExmealWeb.MealsController do
     with {:ok, meal} <- Get.by_id(id) do
       conn
       |> put_status(:ok)
-      |> render("get.json", meal: meal)
+      |> render("meal.json", meal: meal)
     end
   end
 end
