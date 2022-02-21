@@ -25,6 +25,20 @@
       "test": "test Get Meal when an invalid id is given, returns an error"
     },
     {
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
+      "line": 5,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
+    },
+    {
       "describe": "Create Meal",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/create_test.exs",
       "line": 5,
@@ -53,25 +67,11 @@
       "test": "test Update Meal when an invalid id is given, returns an error"
     },
     {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
-      "line": 5,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when a valid id is given, returns the meal"
-    },
-    {
-      "describe": "Delete Meal",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal/meals/delete_test.exs",
-      "line": 25,
-      "module": "Elixir.Exmeal.Meals.DeleteTest",
-      "test": "test Delete Meal when an invalid id is given, returns an error"
-    },
-    {
-      "describe": "create/2",
+      "describe": "update/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 26,
+      "line": 73,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when there are invalid params, returns an error"
+      "test": "test update/2 when id exist, update the meal"
     },
     {
       "describe": "get/2",
@@ -79,6 +79,20 @@
       "line": 108,
       "module": "Elixir.Exmeal.MealsControllerTest",
       "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 43,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id exist, delete the meal"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 58,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
     },
     {
       "describe": "get/2",
@@ -102,25 +116,11 @@
       "test": "test create/2 when all params are valid, creates a meal"
     },
     {
-      "describe": "delete/2",
+      "describe": "create/2",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 58,
+      "line": 26,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test delete/2 when id not exist, return an error"
-    },
-    {
-      "describe": "delete/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 43,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test delete/2 when id exist, delete the meal"
-    },
-    {
-      "describe": "update/2",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-3/desafios/ignite-elixir-desafio-5/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 73,
-      "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test update/2 when id exist, update the meal"
+      "test": "test create/2 when there are invalid params, returns an error"
     },
     {
       "describe": null,
