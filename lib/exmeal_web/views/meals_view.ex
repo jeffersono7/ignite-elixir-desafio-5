@@ -41,4 +41,22 @@ defmodule ExmealWeb.MealsView do
       }
     }
   end
+
+  def render("get.json", %{
+    meal: %Meal{
+      id: id,
+      description: description,
+      date: date,
+      calories: calories
+    }
+  }) do
+%{
+  meal: %{
+    id: id,
+    description: description,
+    date: date,
+    calories: calories
+  }
+}
+end
 end

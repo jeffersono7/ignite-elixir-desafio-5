@@ -2,7 +2,7 @@ defmodule ExmealWeb.MealsController do
   use ExmealWeb, :controller
 
   alias Plug.Conn
-  alias Exmeal.Meals.{Create, Delete, Update}
+  alias Exmeal.Meals.{Create, Delete, Update, Get}
 
   action_fallback(ExmealWeb.FallbackController)
 
@@ -27,6 +27,14 @@ defmodule ExmealWeb.MealsController do
       conn
       |> put_status(:ok)
       |> render("update.json", meal: meal)
+    end
+  end
+
+  def show(%Conn{} = conn, %{"id" => id}) do
+    with {:ok, meal} <- Get.by_id(id) do
+      conn
+      |> put_status(:ok)
+      |> render("get.json", meal: meal)
     end
   end
 end
